@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>..:: Ch Máquina ::..</title>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="column column1">
+			<div class="row row1">
+				<div class="number-container">
+					<label for="number-input">Memoria:</label>
+					<input type="number" id="memory-input" name="number-input" min="0" max="100" value="50">
+				</div>
+				<div class="number-container">
+					<label for="number-input">Kernel:</label>
+					<input type="number" id="kernel-input" name="number-input" min="0" max="100" value="50">
+				</div>
+			</div>
+			<div class="row row2">
+				<div class="text-box-fixed" id="instructions-container">
+				</div>
+			</div>
+		</div>
+		<div class="column column2">
+			<div class="row row1">
+				<div class="text-box-fixed-acumulador">
+					<p id="acumulador">Acumulador: </p>
+					<p id="acumulador-value"></p>
+				</div>
+				<div class="text-box-fixed">
+					<p id="box"></p>
+				</div>
+			</div>
+			<div class="row row2" id="etiquetas-container"></div>
+			<div class="row row3" id="variables-container"></div>
+		</div>
+		<div class="column column3">
+			<div class="row row1">
+				<form id="file-form">
+					<input type="file" id="file-input" name="file-input" multiple>
+					<button type="submit" class="submit-btn" id="submit-btn">Ejecutar</button>
+					<button type="submit" class="submit-btn" id="submit-btn-pp">Ejecutar Paso a Paso</button>
+				</form>
+				<div class="container">
+					<button id="nextButton">Siguiente >>></button>
+				</div>
+			</div>
+			<label for="priority-method">Seleccione el algoritmo: </label>
+			<select name="priority-method" id="priority-method">
+			  <option value="FCFS">FCFS</option>
+			  <option value="RR">Round-Robin</option>
+			  <option value="SJF">SJF</option>
+			  <option value="Priority">Prioridad</option>
+			</select>
+			
+			<div id="radio-buttons">
+			  <!-- los radio botones se agregarán aquí dinámicamente -->
+			</div>
+			
+			<div class="row row2" id="screen-container"></div>
+			<div class="row row3" id="printer-container"></div>
+		</div>
+
+		<div class="column column4">
+			<div class="text-box-fixed" id="memory-container">
+			</div>
+		</div>
+</body>
+
+<script type="module" src="js/index.js"></script>
+
+</html>

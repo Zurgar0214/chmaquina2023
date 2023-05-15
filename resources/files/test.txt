@@ -1,0 +1,9 @@
+no debería funcionar
+
+-- hacer instruccion linea por linea. 👌🏽
+-- leer por pantalla. 👌🏽
+-- validacion de espacio 👌🏽
+-- programar la funcion para operaciones entre cadenas.
+-- no puede utilizarse mas de lo que hay de espacio en memoria.  👌🏽
+-- la funcion personalizadad por estudiante.
+-- cargar mas de un programa. 👌🏽👌🏽
